@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <MailCore/MailCore.h> 
 
 @interface AppDelegate ()
             
