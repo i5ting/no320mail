@@ -13,6 +13,7 @@
 		A69F63F21980D8E70022EF4A /* no320mailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A69F63F11980D8E70022EF4A /* no320mailTests.m */; };
 		A69F640E1980D9420022EF4A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69F640D1980D9420022EF4A /* CFNetwork.framework */; };
 		A69F64101980D9470022EF4A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69F640F1980D9470022EF4A /* Security.framework */; };
+		A69F64701980DD730022EF4A /* libMailCore-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A69F64671980DD680022EF4A /* libMailCore-ios.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,6 +23,48 @@
 			proxyType = 1;
 			remoteGlobalIDString = A69F63DA1980D8E70022EF4A;
 			remoteInfo = no320mail;
+		};
+		A69F64641980DD680022EF4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A69F645C1980DD670022EF4A /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C64EA537169E772200778456;
+			remoteInfo = "static mailcore2 osx";
+		};
+		A69F64661980DD680022EF4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A69F645C1980DD670022EF4A /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6BA2C191705F4E6003F0E9E;
+			remoteInfo = "static mailcore2 ios";
+		};
+		A69F64681980DD680022EF4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A69F645C1980DD670022EF4A /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C64EA78C169F259200778456;
+			remoteInfo = tests;
+		};
+		A69F646A1980DD680022EF4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A69F645C1980DD670022EF4A /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6A81B911706840C00882C15;
+			remoteInfo = "test-ios";
+		};
+		A69F646C1980DD680022EF4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A69F645C1980DD670022EF4A /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6BD288D170BD71100A91AC1;
+			remoteInfo = "mailcore osx";
+		};
+		A69F646E1980DD6E0022EF4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A69F645C1980DD670022EF4A /* mailcore2.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C6BA2B091705F4E6003F0E9E;
+			remoteInfo = "static mailcore2 ios";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -37,6 +80,7 @@
 		A69F63F11980D8E70022EF4A /* no320mailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = no320mailTests.m; sourceTree = "<group>"; };
 		A69F640D1980D9420022EF4A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		A69F640F1980D9470022EF4A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A69F645C1980DD670022EF4A /* mailcore2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mailcore2.xcodeproj; path = "vendor/mailcore2/build-mac/mailcore2.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A69F64701980DD730022EF4A /* libMailCore-ios.a in Frameworks */,
 				A69F64101980D9470022EF4A /* Security.framework in Frameworks */,
 				A69F640E1980D9420022EF4A /* CFNetwork.framework in Frameworks */,
 			);
@@ -62,6 +107,7 @@
 		A69F63D21980D8E70022EF4A = {
 			isa = PBXGroup;
 			children = (
+				A69F645C1980DD670022EF4A /* mailcore2.xcodeproj */,
 				A69F640F1980D9470022EF4A /* Security.framework */,
 				A69F640D1980D9420022EF4A /* CFNetwork.framework */,
 				A69F63DD1980D8E70022EF4A /* no320mail */,
@@ -116,6 +162,18 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A69F645D1980DD670022EF4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A69F64651980DD680022EF4A /* libMailCore.a */,
+				A69F64671980DD680022EF4A /* libMailCore-ios.a */,
+				A69F64691980DD680022EF4A /* tests */,
+				A69F646B1980DD680022EF4A /* test-ios.app */,
+				A69F646D1980DD680022EF4A /* MailCore.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -130,6 +188,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				A69F646F1980DD6E0022EF4A /* PBXTargetDependency */,
 			);
 			name = no320mail;
 			productName = no320mail;
@@ -182,6 +241,12 @@
 			mainGroup = A69F63D21980D8E70022EF4A;
 			productRefGroup = A69F63DC1980D8E70022EF4A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A69F645D1980DD670022EF4A /* Products */;
+					ProjectRef = A69F645C1980DD670022EF4A /* mailcore2.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				A69F63DA1980D8E70022EF4A /* no320mail */,
@@ -189,6 +254,44 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A69F64651980DD680022EF4A /* libMailCore.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMailCore.a;
+			remoteRef = A69F64641980DD680022EF4A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A69F64671980DD680022EF4A /* libMailCore-ios.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libMailCore-ios.a";
+			remoteRef = A69F64661980DD680022EF4A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A69F64691980DD680022EF4A /* tests */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = tests;
+			remoteRef = A69F64681980DD680022EF4A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A69F646B1980DD680022EF4A /* test-ios.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "test-ios.app";
+			remoteRef = A69F646A1980DD680022EF4A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A69F646D1980DD680022EF4A /* MailCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MailCore.framework;
+			remoteRef = A69F646C1980DD680022EF4A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A69F63D91980D8E70022EF4A /* Resources */ = {
@@ -233,6 +336,11 @@
 			isa = PBXTargetDependency;
 			target = A69F63DA1980D8E70022EF4A /* no320mail */;
 			targetProxy = A69F63EC1980D8E70022EF4A /* PBXContainerItemProxy */;
+		};
+		A69F646F1980DD6E0022EF4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "static mailcore2 ios";
+			targetProxy = A69F646E1980DD6E0022EF4A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -320,8 +428,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libstdc++";
 				INFOPLIST_FILE = no320mail/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lctemplate-ios",
+					"-letpan-ios",
+					"-licudata",
+					"-licui18n",
+					"-licuuc",
+					"-lxml2",
+					"-lsasl2",
+					"-liconv",
+					"-ltidy",
+					"-lz",
+					"-lstdc++",
+					"-stdlib=libstdc++",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -331,8 +455,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libstdc++";
 				INFOPLIST_FILE = no320mail/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lctemplate-ios",
+					"-letpan-ios",
+					"-licudata",
+					"-licui18n",
+					"-licuuc",
+					"-lxml2",
+					"-lsasl2",
+					"-liconv",
+					"-ltidy",
+					"-lz",
+					"-lstdc++",
+					"-stdlib=libstdc++",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
