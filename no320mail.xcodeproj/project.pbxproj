@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A69F63E11980D8E70022EF4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A69F63E01980D8E70022EF4A /* main.m */; };
+		A69F63E41980D8E70022EF4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A69F63E31980D8E70022EF4A /* AppDelegate.m */; };
+		A69F63E61980D8E70022EF4A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A69F63E51980D8E70022EF4A /* Images.xcassets */; };
+		A69F63F21980D8E70022EF4A /* no320mailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A69F63F11980D8E70022EF4A /* no320mailTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A69F63EC1980D8E70022EF4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A69F63D31980D8E70022EF4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A69F63DA1980D8E70022EF4A;
+			remoteInfo = no320mail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A69F63DB1980D8E70022EF4A /* no320mail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = no320mail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A69F63DF1980D8E70022EF4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A69F63E01980D8E70022EF4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A69F63E21980D8E70022EF4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A69F63E31980D8E70022EF4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A69F63E51980D8E70022EF4A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A69F63EB1980D8E70022EF4A /* no320mailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = no320mailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A69F63F01980D8E70022EF4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A69F63F11980D8E70022EF4A /* no320mailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = no320mailTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A69F63D81980D8E70022EF4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A69F63E81980D8E70022EF4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A69F63D21980D8E70022EF4A = {
+			isa = PBXGroup;
+			children = (
+				A69F63DD1980D8E70022EF4A /* no320mail */,
+				A69F63EE1980D8E70022EF4A /* no320mailTests */,
+				A69F63DC1980D8E70022EF4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A69F63DC1980D8E70022EF4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A69F63DB1980D8E70022EF4A /* no320mail.app */,
+				A69F63EB1980D8E70022EF4A /* no320mailTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A69F63DD1980D8E70022EF4A /* no320mail */ = {
+			isa = PBXGroup;
+			children = (
+				A69F63E21980D8E70022EF4A /* AppDelegate.h */,
+				A69F63E31980D8E70022EF4A /* AppDelegate.m */,
+				A69F63E51980D8E70022EF4A /* Images.xcassets */,
+				A69F63DE1980D8E70022EF4A /* Supporting Files */,
+			);
+			path = no320mail;
+			sourceTree = "<group>";
+		};
+		A69F63DE1980D8E70022EF4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A69F63DF1980D8E70022EF4A /* Info.plist */,
+				A69F63E01980D8E70022EF4A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A69F63EE1980D8E70022EF4A /* no320mailTests */ = {
+			isa = PBXGroup;
+			children = (
+				A69F63F11980D8E70022EF4A /* no320mailTests.m */,
+				A69F63EF1980D8E70022EF4A /* Supporting Files */,
+			);
+			path = no320mailTests;
+			sourceTree = "<group>";
+		};
+		A69F63EF1980D8E70022EF4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A69F63F01980D8E70022EF4A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A69F63DA1980D8E70022EF4A /* no320mail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A69F63F51980D8E70022EF4A /* Build configuration list for PBXNativeTarget "no320mail" */;
+			buildPhases = (
+				A69F63D71980D8E70022EF4A /* Sources */,
+				A69F63D81980D8E70022EF4A /* Frameworks */,
+				A69F63D91980D8E70022EF4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = no320mail;
+			productName = no320mail;
+			productReference = A69F63DB1980D8E70022EF4A /* no320mail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A69F63EA1980D8E70022EF4A /* no320mailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A69F63F81980D8E70022EF4A /* Build configuration list for PBXNativeTarget "no320mailTests" */;
+			buildPhases = (
+				A69F63E71980D8E70022EF4A /* Sources */,
+				A69F63E81980D8E70022EF4A /* Frameworks */,
+				A69F63E91980D8E70022EF4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A69F63ED1980D8E70022EF4A /* PBXTargetDependency */,
+			);
+			name = no320mailTests;
+			productName = no320mailTests;
+			productReference = A69F63EB1980D8E70022EF4A /* no320mailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A69F63D31980D8E70022EF4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "alfred sang";
+				TargetAttributes = {
+					A69F63DA1980D8E70022EF4A = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					A69F63EA1980D8E70022EF4A = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = A69F63DA1980D8E70022EF4A;
+					};
+				};
+			};
+			buildConfigurationList = A69F63D61980D8E70022EF4A /* Build configuration list for PBXProject "no320mail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A69F63D21980D8E70022EF4A;
+			productRefGroup = A69F63DC1980D8E70022EF4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A69F63DA1980D8E70022EF4A /* no320mail */,
+				A69F63EA1980D8E70022EF4A /* no320mailTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A69F63D91980D8E70022EF4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69F63E61980D8E70022EF4A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A69F63E91980D8E70022EF4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A69F63D71980D8E70022EF4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69F63E41980D8E70022EF4A /* AppDelegate.m in Sources */,
+				A69F63E11980D8E70022EF4A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A69F63E71980D8E70022EF4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69F63F21980D8E70022EF4A /* no320mailTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A69F63ED1980D8E70022EF4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A69F63DA1980D8E70022EF4A /* no320mail */;
+			targetProxy = A69F63EC1980D8E70022EF4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A69F63F31980D8E70022EF4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A69F63F41980D8E70022EF4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A69F63F61980D8E70022EF4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = no320mail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A69F63F71980D8E70022EF4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = no320mail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A69F63F91980D8E70022EF4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/no320mail.app/no320mail";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = no320mailTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		A69F63FA1980D8E70022EF4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/no320mail.app/no320mail";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = no320mailTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A69F63D61980D8E70022EF4A /* Build configuration list for PBXProject "no320mail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A69F63F31980D8E70022EF4A /* Debug */,
+				A69F63F41980D8E70022EF4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A69F63F51980D8E70022EF4A /* Build configuration list for PBXNativeTarget "no320mail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A69F63F61980D8E70022EF4A /* Debug */,
+				A69F63F71980D8E70022EF4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A69F63F81980D8E70022EF4A /* Build configuration list for PBXNativeTarget "no320mailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A69F63F91980D8E70022EF4A /* Debug */,
+				A69F63FA1980D8E70022EF4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A69F63D31980D8E70022EF4A /* Project object */;
+}
