@@ -11,6 +11,8 @@
 		A69F63E41980D8E70022EF4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A69F63E31980D8E70022EF4A /* AppDelegate.m */; };
 		A69F63E61980D8E70022EF4A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A69F63E51980D8E70022EF4A /* Images.xcassets */; };
 		A69F63F21980D8E70022EF4A /* no320mailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A69F63F11980D8E70022EF4A /* no320mailTests.m */; };
+		A69F640E1980D9420022EF4A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69F640D1980D9420022EF4A /* CFNetwork.framework */; };
+		A69F64101980D9470022EF4A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69F640F1980D9470022EF4A /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,8 @@
 		A69F63EB1980D8E70022EF4A /* no320mailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = no320mailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A69F63F01980D8E70022EF4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A69F63F11980D8E70022EF4A /* no320mailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = no320mailTests.m; sourceTree = "<group>"; };
+		A69F640D1980D9420022EF4A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A69F640F1980D9470022EF4A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A69F64101980D9470022EF4A /* Security.framework in Frameworks */,
+				A69F640E1980D9420022EF4A /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +62,8 @@
 		A69F63D21980D8E70022EF4A = {
 			isa = PBXGroup;
 			children = (
+				A69F640F1980D9470022EF4A /* Security.framework */,
+				A69F640D1980D9420022EF4A /* CFNetwork.framework */,
 				A69F63DD1980D8E70022EF4A /* no320mail */,
 				A69F63EE1980D8E70022EF4A /* no320mailTests */,
 				A69F63DC1980D8E70022EF4A /* Products */,
